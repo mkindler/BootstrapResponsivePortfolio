@@ -1,0 +1,38 @@
+body {
+  background-image: url("Assets/unsplash-trees.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  display: block;
+}
+
+.container {
+  height: 100%;
+}
+
+/* The CSS below is for the CONTACT page */
+
+#contact {
+  margin: 35px 35px 35px 15px;
+  padding: 25px 25px 25px 25px;
+	background: #ffffff;
+}
+
+#contact h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #2b2118;
+}
+
+#contact form label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#contact form input {
+  width: 97%;
+  margin-bottom: 10px;
+}
+
+#contact form input
+
