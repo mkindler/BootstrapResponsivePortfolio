@@ -7,7 +7,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #cccccc;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .col-lg-8 {
@@ -33,6 +34,10 @@ body {
   height: 155px;
 }
 
-.navbar-light {
+footer {
   background-color: #ffffff;
+  margin-top: auto;
+  height: 50px;
+  text-align: center;
+  padding: 15px 0px 0px 15px;
 }
