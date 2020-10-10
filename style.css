@@ -10,15 +10,19 @@ body {
   display: block;
 }
 
+.container {
+  justify-content: center;
+}
+
 .container .navbar-light {
   background-color: #ffffff;
 }
 
-.col-lg-6 {
+.col-md-6 {
   background-color: #ffffff;
 }
 
-.col-lg-6 input {
+.col-md-6 input {
   width: 97%;
 }
 
@@ -31,7 +35,7 @@ body {
   width: 75px;
 }
 
-.col-lg-4 {
+.col-md-4 {
   background-color: #ffffff;
   text-align: center;
   height: 175px;
@@ -50,10 +54,10 @@ body {
   height: 200px;
   margin: 10px;
 }
-
+/* 
 .col-lg-4 {
   float: left;
-}
+} */
 
 /* ul {
   padding: 0px;
@@ -87,10 +91,15 @@ body {
   align-content: center;
 }
 
-.my-col {
-  margin: 10px;
+.thumbnail {
+  align-content: center;
+  object-fit: cover;
 }
 
-#contact {
+/* .my-col {
+  margin: 10px;
+} */
+
+/* #contact {
   width: 100%;
-}
+} */
