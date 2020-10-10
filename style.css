@@ -14,11 +14,11 @@ body {
   background-color: #ffffff;
 }
 
-.col-lg-8 {
+.col-lg-6 {
   background-color: #ffffff;
 }
 
-.col-lg-8 input {
+.col-lg-6 input {
   width: 97%;
 }
 
@@ -31,20 +31,66 @@ body {
   width: 75px;
 }
 
-.col-lg-3 {
+.col-lg-4 {
   background-color: #ffffff;
   text-align: center;
-  height: 155px;
+  height: 175px;
 }
 
-#footer {
+/* #footer {
   background-color: #ffffff;
   height: 50px;
   width: 100%;
   text-align: center;
   padding: 15px 0px 0px 15px;
+} */
+
+.text-wrap {
+  float: left;
+  height: 200px;
+  margin: 10px;
 }
 
-img {
+.col-lg-4 {
   float: left;
+}
+
+/* ul {
+  padding: 0px;
+}
+
+#portfolio li {
+  list-style: none;
+  width: 90%;
+  height: 90%;
+  margin: 15px 5px 20px 5px;
+}
+
+#portfolio img {
+  width: 100%;
+  height: auto;
+} */
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.card-contact {
+  align-content: center;
+}
+
+.card-connect {
+  align-content: center;
+}
+
+.my-col {
+  margin: 10px;
+}
+
+#contact {
+  width: 100%;
 }
