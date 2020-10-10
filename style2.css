@@ -1,0 +1,100 @@
+body {
+    background-image: url("Assets/unsplash-trees.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    display: block;
+  }
+  
+  .container {
+    height: 100%;
+  }
+  
+  a {
+    color: #000000;
+  }
+  
+  .container .bg-light .navbar-brand {
+    color: #000000;
+  }
+  
+  .container .bg-light #navbarTogglerDemo02 .mt-lg-0 .nav-item .nav-link {
+    color: #000000;
+  }
+  
+  .col-lg-8 {
+    background: #ffffff;
+  }
+  
+  .col-lg-4 {
+    height: 150px;
+    background: #ffffff;
+    text-align: center;
+  }
+  
+  .col-lg-4 h3 {
+      font-weight: bold;
+    color: #2b2118;
+  }
+  
+  .col-lg-4 img {
+    height: 55px;
+  }
+  
+  /* ALL CSS BELOW IS FOR THE CONTACT PAGE */
+  
+  .col-lg-8 {
+    background: #ffffff;
+  }
+  
+  .col-lg-8 h2 {
+    font-weight: bold;
+    color: #2b2118;
+  }
+  
+  /* Specifies the font size and weight of the labels Name, Email, and Message */
+  .col-lg-8 form label {
+    font-weight: bold;
+  }
+  
+  /* Specifies the height and width of the input text boxes for Name and Email */
+  .col-lg-8 form input {
+    height: 30px;
+    width: 97%;
+    margin-bottom: 10px;
+  }
+  
+  /* Specifies the height and width of the input text box for Message */
+  .col-lg-8 textarea {
+    height: 185px;
+    width: 97%;
+    margin-bottom: 10px;
+  }
+  
+  #name[type=text] {
+    padding-left: 4px;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  #email[type=text] {
+    padding-left: 4px;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  #submit[type=submit] {
+    background: #2b2118;
+    color: #ffffff;
+    height: 30px;
+    width: 75px;
+    border: none;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  #submit:hover {
+    background-color: #6f1a07;
+  }
+  
+  

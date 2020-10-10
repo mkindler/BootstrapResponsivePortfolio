@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("Assets/unsplash-trees.jpg");
   background-repeat: no-repeat;
@@ -6,33 +10,30 @@ body {
   display: block;
 }
 
-.container {
-  height: 100%;
+.col-lg-8 {
+  background-color: #ffffff;
 }
 
-/* The CSS below is for the CONTACT page */
-
-#contact {
-  margin: 35px 35px 35px 15px;
-  padding: 25px 25px 25px 25px;
-	background: #ffffff;
-}
-
-#contact h2 {
-  font-size: 2em;
-  font-weight: bold;
-  color: #2b2118;
-}
-
-#contact form label {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-#contact form input {
+.col-lg-8 input {
   width: 97%;
-  margin-bottom: 10px;
 }
 
-#contact form input
+#message {
+  height: 150px;
+  width: 97%;
+}
 
+#submit {
+  width: 75px;
+}
+
+.col-lg-3 {
+  background-color: #ffffff;
+  text-align: center;
+  height: 155px;
+}
+
+.fixed-bottom {
+  background-color: #ffffff;
+  margin: 50px 0px 0px 0px;
+}

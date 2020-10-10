@@ -17,43 +17,76 @@
 </head>
 
 <body>
-    <section class="container">    
+    <div class="container px-2">
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Mae Kindler</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <div class="navbar-brand">Mae Kindler</div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <article class="navbar-toggler-icon"></article>
             </button>
-            <section class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                </ul>
-            </section>
+              </ul>
+              
+            </div>
         </nav>
 
-        <section class="row">
-            <section class="col-sm-8" id="contact">
-                <h2>Contact Me</h2>
+        <div class="row">
+
+            <div class="col-lg-8 col-xs-12 m-3 p-3">
+                <h2>Contact</h2>
                 <hr>
-                <form>
+                <form action="#">
                     <label>Name</label><br>
-                    <input id="name" type="text" name="name" value="John Smith"><br>
-                    <label>Email</label><br>
-                    <input id="email" type="text" name="email" value="example@gmail.com"><br>
-                    <label>Message</label><br>
-                    <input id="message" type="text"><br><br>
-                    <input type="submit" value="Submit">
+                    <input id="name" type="text" name="name" value="John Smith">
+                    <br>
+                    <label>Email</label>
+                    <br>
+                    <input id="email" type="text" name="email" value="example@gmail.com">
+                    <br>
+                    <label>Message</label>
+                    <br>
+                    <textarea id="message" type="text"></textarea>
+                    <br>
+                    <input id="submit" type="submit" value="Submit">
                 </form>
-            </section>
-        </section>
-    </section>
+            </div>
+            
+            <div class="col-lg-3 col-xs-12 m-3 p-3">
+                <h3>Connect with Me</h3>
+                <hr>
+                <a href="https://github.com/mkindler" target="_blank"><img src="Assets/github-social-media.png" height="50"/></a>
+
+                <a href="https://www.linkedin.com/in/maekindler/" target="_blank"><img src="Assets/linkedin-social-media.png" height="50"/></a>
+
+                <a href="https://stackoverflow.com/users/14257704/mae-kindler" target="_blank"><img src="Assets/stackoverflow-social-media.png" height="50"/></a>
+            </div>
+
+        </div>
+  
+
+        <!-- Footer -->
+        <div class="col-lg-12 col-xs-12 fixed-bottom">
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">&#169; Copyright 2020 Mae Kindler</div>
+          <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+
+    </div>
     
 </body>
 </html>
