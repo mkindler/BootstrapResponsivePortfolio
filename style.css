@@ -1,3 +1,5 @@
+/* MAE'S */
+
 * {
   box-sizing: border-box;
 }
@@ -8,6 +10,7 @@ body {
   background-size: cover;
   background-color: #cccccc;
   display: block;
+  min-height: 100vh;
 }
 
 .container {
@@ -47,6 +50,11 @@ body {
   width: 100%;
   text-align: center;
   padding: 15px 0px 0px 15px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 } */
 
 .text-wrap {
@@ -103,3 +111,7 @@ body {
 /* #contact {
   width: 100%;
 } */
+
+.blank-card {
+  opacity: 1;
+}
