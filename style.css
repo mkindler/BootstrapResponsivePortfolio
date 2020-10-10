@@ -7,8 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #cccccc;
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 .col-lg-8 {
@@ -34,9 +33,8 @@ body {
   height: 155px;
 }
 
-footer {
+#footer {
   background-color: #ffffff;
-  margin-top: auto;
   height: 50px;
   text-align: center;
   padding: 15px 0px 0px 15px;
