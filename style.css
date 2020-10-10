@@ -33,7 +33,6 @@ body {
   height: 155px;
 }
 
-.fixed-bottom {
+.navbar-light {
   background-color: #ffffff;
-  margin: 50px 0px 0px 0px;
 }
