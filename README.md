@@ -32,9 +32,9 @@ This project will require a user to have:
 
 ## Process
 
-This project began with the creation of three separate `html` files, including `index.html`, `portfolio.html`, and `contact.html`. A separate CSS stylesheet was also created to adjust certain aesthetic features of the overall online portfolio as the project progressed. Finally, the `BootstrapCDN` was incorporated into each `html` file to ensure all aspects of the online portfolio function as designed while maintaining mobile responsiveness.
+This project began with the creation of three separate `html` files, including `index.html`, `portfolio.html`, and `contact.html`. A separate CSS stylesheet was also created to adjust certain aesthetic features of the overall online portfolio as the project progressed. Finally, the `Bootstrap CSS, JS, Popper.js, and jQuery Frameworks` were incorporated into each `html` file to ensure all aspects of the online portfolio function as designed while maintaining mobile responsiveness.
 
-<i>Although an attempt was made to properly add a sticky footer to the overall portfolio, the code provided in HTML and CSS is <b>not</b> adjusted as desired. Additional edits will be made on the footer over time.</i>
+<i>Although an attempt was made to properly add a sticky footer to the overall portfolio, the code written in the HTML files and CSS is <b>not</b> adjusted as desired. Additional edits will be made on the footer over time.</i>
 
 ## Link to Deployed Website
 
@@ -44,7 +44,7 @@ https://mkindler.github.io/BootstrapResponsivePortfolio/
 
 <b><i>The images below are current as of October 10th, 2020.</i></b>
 
-![About Me](Assets/about-me.png)
+![About Me Page](Assets/Images/about-me.png)
 
 ## Contributing
 
