@@ -46,6 +46,10 @@ https://mkindler.github.io/BootstrapResponsivePortfolio/
 
 ![About Me Page](Assets/Images/about-me.png)
 
+![Contact Page](Assets/Images/contact.png)
+
+![Portfolio Page](Assets/Images/portfolio.png)
+
 ## Contributing
 
 Please open a New Issue via GitHub for pull requests on this project that includes a description of what you would like to change.
