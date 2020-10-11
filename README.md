@@ -36,7 +36,7 @@ This project began with the creation of three separate `html` files, including `
 
 ## Link to Deployed Website
 
-<a href="https://mkindler.github.io/BootstrapResponsivePortfolio/" target="_blank"></a>
+https://mkindler.github.io/BootstrapResponsivePortfolio/
 
 ## Screenshots of Deployed Website
 
