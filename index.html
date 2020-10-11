@@ -6,27 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mae Kindler</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- External CSS stylesheet linked -->
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
 
+    <!-- Bootstrap CSS Framework linked from Bootstrap website -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <!-- Bootstrap JS, Popper.js, and jQuery linked from Bootstrap website -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </head>
 
+<!-- Complete content of webpage -->
 <body>
-    <div class="container">
 
+    <!-- Main container of webpage -->
+    <section class="container">
+
+        <!-- Top navigation bar with About Me, Contact, and Portfolio links. Navigation bar shrinks responsively when viewed on various mobile devices. On devices with smaller viewports, a toggle button will appear to allow the user to tap the button and display the option to view the links to the About Me, Contact, and Portfolio pages. -->
         <nav class="navbar navbar-expand-lg mb-3 px-4 navbar-light">
-            <div class="navbar-brand">Mae Kindler</div>
+            <nav class="navbar-brand">Mae Kindler</nav>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              
               <article class="navbar-toggler-icon"></article>
+            
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <!-- Toggle button with links to About Me, Contact, and Portfolio pages when webpage is viewed on smaller viewports on mobile devices. -->
+            <nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">About Me</a>
@@ -37,76 +47,52 @@
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-              </ul>
-              
-            </div>
+              </ul>              
+            </nav>
         </nav>
 
+        <!-- Using the Bootstrap grid system, a card has been nested within a column that is housed inside a row. This card is used to display the bio/about me. -->
         <main class="row">
-
-            <div class="col-md-6 col-xs-12 my-3">
-                <div class="card-about">
-                    <div class="card-body">
+            <section class="col-md-6 my-3">
+                <section class="card-about">
+                    <section class="card-body">
                         <h2>About Me</h2>
                         <hr>
-                        <h3>Mae Kindler</h3>
-                        <img class="text-wrap" src="Assets/headshot.jpg" height="200">
+                        <img class="text-wrap" src="Assets/Images/headshot.jpg"></img>
                         <p>Greetings! My name is Mae Kindler, and I currently live in Saint Paul, Minnesota. I received my Bachelor of Science degree in Biology from the University of Minnesota Twin Cities in 2012. While science is amazing, I found myself overwhelmed by how many different career directions I wanted to go following graduation. Needless to say, the direction in which my career ultimately took me was completely unexpected.</p>
                         <p>Since 2013, I have spent my career working in college access and success, including a two-year position with the Saint Paul-based non-profit College Possible as their AmeriCorps College Relations VISTA. College Possible's mission is to <i>make college admission and success possible for students from low-income backgrounds through an intensive curriculum of coaching and support.</i> This position allowed me to work behind the scenes on college partnerships as well as directly with current college students, supporting them 1:1 through their college journeys.</p>
                         <p>Following College Possible, I began the next phase of my career with another non-profit, Big Brothers Big Sisters, whose mission is to <i>create and support mentoring relationships that ignite the power and promise of youth.</i> Over the last five years, my position has encompassed several responsibilities, but the heart of my work has remained in college access and success for the teen participants in the program.</p>
                         <p>Fast-forward to 2020, I am continuing to work full-time with Big Brothers Big Sisters while attending a fast-paced, six-month Coding Bootcamp through the University of Minnesota Twin Cities in partnership with Trilogy Education Services to become a certified Full-Stack Web Developer. Unexpected career shift ahead? That's the goal. We'll see what's next!</p>
-                    </div>
-                </div>
-            </div>
+                    </section>
+                </section>
+            </section>
             
-            <div class="col-md-2">
-                <div class="blank-card"></div>
-            </div> 
+            <!-- Using the Bootstrap grid system, a second column that is blank has been housed inside the same row as the column above. This column has intentially been left blank to create space between the first and third column (below). -->
+            <section class="col-md-2"></section>  
 
-            <div class="col-md-4 col-xs-12 my-3">
-                <div class="card-connect">
-                  <div class="card-body"></div>
-                  <h3>Connect with Me</h3>
-                  <hr>
-                  <a href="https://github.com/mkindler" target="_blank"><img src="Assets/github-social-media.png" height="50"/></a>
-      
-                  <a href="https://www.linkedin.com/in/maekindler/" target="_blank"><img src="Assets/linkedin-social-media.png" height="50"/></a>
-      
-                  <a href="https://stackoverflow.com/users/14257704/mae-kindler" target="_blank"><img src="Assets/stackoverflow-social-media.png" height="50"/></a>
-                </div>              
-            </div>
-
-        </main>
-
+            <!-- Using the Bootstrap grid system, a third card has been nested within a third column that is housed inside the same row as the two columns above. This card is used to display the social media icons. -->
+            <section class="col-md-4 my-3">
+                <section class="card-connect">
+                    <section class="card-body">
+                    <h3>Connect with Me</h3>
+                    <hr>
+                    <a href="https://github.com/mkindler" target="_blank"><img src="Assets/github-social-media.png" alt="Icon for the GitHub website" height="50"/></a>
         
-
-        <!-- <div class="col-lg-12 col-xs-12 mt-2" id="footer">&#169; Copyright 2020 Mae Kindler</footer> -->
-
-        <!-- <nav class="navbar fixed-bottom navbar-expand-lg navbar-light">
-          <div class="navbar-brand">&#169; Copyright 2020 Mae Kindler</div>
-        </nav> -->
-  
-     
-        <!-- <div class="footer-margin">
-          
-          <footer class="card-footer bg-light text-center footer-font-style footer-position">&#169; Copyright 2020 Mae Kindler</div>
+                    <a href="https://www.linkedin.com/in/maekindler/" target="_blank"><img src="Assets/linkedin-social-media.png" alt="Icon for the LinkedIn website" height="50"/></a>
         
-        </footer> -->
+                    <a href="https://stackoverflow.com/users/14257704/mae-kindler" target="_blank"><img src="Assets/stackoverflow-social-media.png" alt="Icon for the Stack Overflow website" height="50"/></a>
+                    </section>
+                </section>              
+            </section>
+
+        </main>     
     
-    </div>
+    </section>
 
-    <!-- <div class="fixed-bottom">
-        <footer class="card-footer footer-font-style mt-auto footer-position">&#169; Copyright 2020 Mae Kindler</footer>
-    </div> -->
-
-    <!-- <footer class="footer">
-        <span class="text-muted">&#169; Copyright 2020 Mae Kindler</span>
-    </footer> -->
-
+    <!-- Footer applied to the bottom of the page. --> 
     <footer>
         &#169; Copyright 2020 Mae Kindler
     </footer>
 
-    
 </body>
 </html>
