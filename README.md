@@ -44,10 +44,13 @@ https://mkindler.github.io/BootstrapResponsivePortfolio/
 
 <b><i>The images below are current as of October 10th, 2020.</i></b>
 
+**About Me Page**
 ![About Me Page](Assets/Images/about-me.png)
 
+**Contact Page**
 ![Contact Page](Assets/Images/contact.png)
 
+**Portfolio Page**
 ![Portfolio Page](Assets/Images/portfolio.png)
 
 ## Contributing
