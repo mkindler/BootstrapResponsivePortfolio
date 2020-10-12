@@ -50,7 +50,7 @@ footer {
 /* This class allows the image/headshot to float left while the text wraps around the image */
 .text-wrap {
   float: left;
-  height: 200px;
+  height: 300px;
   padding: 5px;
   margin: 5px;
 }
