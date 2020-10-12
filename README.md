@@ -32,7 +32,10 @@ This project will require a user to have:
 
 ## Process
 
-This project began with the creation of three separate `html` files, including `index.html`, `portfolio.html`, and `contact.html`. A separate CSS stylesheet was also created to adjust certain aesthetic features of the overall online portfolio as the project progressed. Finally, the `Bootstrap CSS, JS, Popper.js, and jQuery Frameworks` were incorporated into each `html` file to ensure all aspects of the online portfolio function as designed while maintaining mobile responsiveness.
+* This project began with the creation of three separate `html` files, including `index.html`, `portfolio.html`, and `contact.html`
+* A separate CSS stylesheet was also created to adjust certain aesthetic features of the overall online portfolio as the project progressed
+* The `Bootstrap CSS, JS, Popper.js, and jQuery Frameworks` were incorporated into each `html` file to ensure all aspects of the online portfolio function as designed while maintaining mobile responsiveness
+* Finally, a `Markup Validation Service` was used to check and correct any errors, <i>W3C Markup Validation Service</i>
 
 <i>Although an attempt was made to properly add a sticky footer to the overall portfolio, the code written in the HTML files and CSS is <b>not</b> adjusted as desired. Additional edits will be made on the footer over time.</i>
 
@@ -61,6 +64,7 @@ Please open a New Issue via GitHub for pull requests on this project that includ
 
 * Trilogy Education Services
 * https://getbootstrap.com/
+* https://validator.w3.org/
 
 ## License
 
