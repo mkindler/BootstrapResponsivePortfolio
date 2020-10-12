@@ -23,15 +23,15 @@
 <body>
 
     <!-- Main container of webpage -->
-    <section class="container">
+    <main class="container">
       
         <!-- Top navigation bar with About Me, Contact, and Portfolio links. Navigation bar shrinks responsively when viewed on various mobile devices. On devices with smaller viewports, a toggle button will appear to allow the user to tap the button and display the option to view the links to the About Me, Contact, and Portfolio pages. -->
         <nav class="navbar navbar-expand-lg mb-3 px-4 navbar-light">
-            <nav class="navbar-brand">Mae Kindler</nav>
+            <header class="navbar-brand">Mae Kindler</header>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               
-              <article class="navbar-toggler-icon"></article>
+              <span class="navbar-toggler-icon"></span>
             
             </button>
           
@@ -49,13 +49,13 @@
                 </li>
               </ul>              
             </nav>
-        </nav>
+          </nav>
         
         <!-- Using the Bootstrap grid system, a card has been nested within a column that is housed inside a row. This card is used to display the contact form. -->
-        <main class="row">
-          <section class="col-md-6 my-3">
-            <section class="card-contact">
-              <section class="card-body">
+        <section class="row">
+          <div class="col-md-6 my-3">
+            <div class="card-contact">
+              <div class="card-body">
                 <h2>Contact</h2>
                 <hr>
                 <form>
@@ -69,21 +69,21 @@
                   <br>
                   <label>Message</label>
                   <br>
-                  <textarea id="message" type="text"></textarea>
+                  <textarea id="message"></textarea>
                   <br>
                   <input id="submit" type="submit" value="Submit">
                 </form>
-              </section>
-            </section>
-          </section>
+              </div>
+            </div>
+          </div>
 
           <!-- Using the Bootstrap grid system, a second column that is blank has been housed inside the same row as the column above. This column has intentially been left blank to create space between the first and third column (below). -->
-          <section class="col-md-2"></section>  
+          <div class="col-md-2"></div>  
 
           <!-- Using the Bootstrap grid system, a third card has been nested within a third column that is housed inside the same row as the two columns above. This card is used to display the social media icons. -->
           <section class="col-md-4 my-3">
-            <section class="card-connect">
-              <section class="card-body">
+            <div class="card-connect">
+              <div class="card-body">
               <h3>Connect with Me</h3>
               <hr>
               <a href="https://github.com/mkindler" target="_blank"><img src="Assets/Images/github-social-media.png" alt="Icon for the GitHub website" height="50"/></a>
@@ -91,13 +91,13 @@
               <a href="https://www.linkedin.com/in/maekindler/" target="_blank"><img src="Assets/Images/linkedin-social-media.png" alt="Icon for the LinkedIn website" height="50"/></a>
   
               <a href="https://stackoverflow.com/users/14257704/mae-kindler" target="_blank"><img src="Assets/Images/stackoverflow-social-media.png" alt="Icon for the Stack Overflow website" height="50"/></a>
-              </section>
-            </section>              
+              </div>
+            </div>              
           </section>
             
-        </main>
+        </section>
     
-    </section>
+      </main>
 
     <!-- Footer applied to the bottom of the page. -->
     <footer>
