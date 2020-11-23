@@ -51,7 +51,7 @@ https://mkindler.github.io/BootstrapResponsivePortfolio/
 ![About Me Page](Assets/Images/about-me.png)
 
 **Contact Page**
-![Contact Page](Assets/Images/contact.png)
+![Contact Page](Assets/Images/contact-me.png)
 
 **Portfolio Page**
 ![Portfolio Page](Assets/Images/portfolio.png)
