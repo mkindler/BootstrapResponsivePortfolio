@@ -88,13 +88,13 @@ p {
 /* The example text in the Name and Email fields of the form are styled with opacity, adjusted font size, and padding */
 #name[type=text] {
   padding-left: 4px;
-  font-size: 14px;
+  /* font-size: 14px; */
   opacity: 0.7;
 }
 
 #email[type=text] {
   padding-left: 4px;
-  font-size: 14px;
+  /* font-size: 14px; */
   opacity: 0.7;
 }
 
@@ -112,7 +112,7 @@ p {
   height: 30px;
   width: 75px;
   border: none;
-  font-size: 14px;
+  /* font-size: 14px; */
   margin-top: 5px;
 }
 
