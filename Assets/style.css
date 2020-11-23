@@ -11,6 +11,10 @@ body {
   margin-top: auto;
 }
 
+#page-content {
+  flex: 1 0 auto;
+}
+
 .navbar-light {
   background-color: #20603C;
   width: 100%;
@@ -88,7 +92,7 @@ h5 {
 
 footer {
   background-color: #20603C;
-  position: fixed;
+  position: fixed!important;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -109,6 +113,26 @@ h1, p {
 }
 
 /* ALL CSS BELOW IS FOR THE CONTACT PAGE */
+.contact-header {
+  color: #000000;
+}
+
+.form-group {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #20603C;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.col-md-2 {
+  margin: 20px;
+}
+
 /* The following three classes are styled for the first column containing the contact form */
 /* .col-md-6 {
   background-color: #ffffff;
@@ -119,15 +143,11 @@ h1, p {
   color: #2b2118;
 } */
 
-.contact-header {
-  color: #000000;
-}
-
-.col-md-6 input {
+/* .col-md-6 input {
   height: 30px;
   width: 97%;
   margin-bottom: 10px;
-}
+} */
 
 /* The example text in the Name and Email fields of the form are styled with opacity, adjusted font size, and padding */
 #name[type=text] {
