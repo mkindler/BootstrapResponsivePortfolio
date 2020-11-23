@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome linked -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
     <!-- Bootstrap CSS Framework linked from Bootstrap website -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -26,21 +29,47 @@
 <!-- Complete content of webpage -->
 <body>
 
+    <!-- Top navigation bar with About Me, Contact, and Portfolio links. Navigation bar shrinks responsively when viewed on various mobile devices. On devices with smaller viewports, a toggle button will appear to allow the user to tap the button and display the option to view the links to the About Me, Contact, and Portfolio pages. -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <header class="navbar-brand">Mae Kindler</header>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          
+          <span class="navbar-toggler-icon"></span>
+        
+        </button>
+      
+        <!-- Toggle button with links to About Me, Contact, and Portfolio pages when webpage is viewed on smaller viewports on mobile devices. -->
+        <nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>              
+        </nav>
+    </nav>
+
     <!-- Main container of webpage -->
     <main class="container">
 
-        <!-- Top navigation bar with About Me, Contact, and Portfolio links. Navigation bar shrinks responsively when viewed on various mobile devices. On devices with smaller viewports, a toggle button will appear to allow the user to tap the button and display the option to view the links to the About Me, Contact, and Portfolio pages. -->
-        <nav class="navbar navbar-expand-lg mb-3 px-4 navbar-light">
+  
+        <!-- <nav class="navbar navbar-expand-lg mb-3 px-4 navbar-light">
             <header class="navbar-brand">Mae Kindler</header>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               
               <span class="navbar-toggler-icon"></span>
             
-            </button>
+            </button> -->
           
             <!-- Toggle button with links to About Me, Contact, and Portfolio pages when webpage is viewed on smaller viewports on mobile devices. -->
-            <nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <!-- <nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">About Me</a>
@@ -53,7 +82,7 @@
                 </li>
               </ul>              
             </nav>
-        </nav>
+        </nav> -->
 
         <!-- Using the Bootstrap grid system, a card has been nested within a column that is housed inside a row. This card is used to set up the main place where the individual portfolio images are housed. -->
         <section class="row">
@@ -143,8 +172,14 @@
     </main>
 
     <!-- Footer applied to the bottom of the page. -->
-    <footer>
+    <!-- <footer>
         &#169; Copyright 2020 Mae Kindler
+      </footer> -->
+    
+      <footer class="footer text-center py-3 sticky-footer">
+        <div class="container" id="footer-container">
+          <span class="text-muted">Copyright © 2020 <a class="text-info" target="_blank" href="https://github.com/mkindler">Mae Kindler</a></span>
+        </div>
       </footer>
 
 </body>
