@@ -29,71 +29,98 @@
 <!-- Complete content of webpage -->
 <body>
 
+
     <!-- Top navigation bar with About Me, Contact, and Portfolio links. Navigation bar shrinks responsively when viewed on various mobile devices. On devices with smaller viewports, a toggle button will appear to allow the user to tap the button and display the option to view the links to the About Me, Contact, and Portfolio pages. -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <header class="navbar-brand">Mae Kindler</header>
+        <a class="navbar-brand" href="index.html"><h2>Mae Kindler</h2></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          
-          <span class="navbar-toggler-icon"></span>
+        
+        <span class="navbar-toggler-icon"></span>
         
         </button>
-      
-        <!-- Toggle button with links to About Me, Contact, and Portfolio pages when webpage is viewed on smaller viewports on mobile devices. -->
+    
+        <!-- Toggle button with links to Home, Contact, and Portfolio pages when webpage is viewed on smaller viewports on mobile devices. -->
         <nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">About Me</a>
+            <a class="nav-link" href="index.html"><h5>Home</h5></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html"><h5>Contact</h5></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="portfolio.html"><h5>Portfolio</h5></a>
             </li>
-          </ul>              
+        </ul>              
         </nav>
     </nav>
 
+
     <!-- Main container of webpage -->
-    <main class="container">
+    <section>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h1>Portfolio</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12" id="portfolio">
+                    <div class="card-group card-examples">
+                        <div class="card examples">
+                            <img src="Assets/Images/decisive-kitchen-portfolio.png" class="card-img-top img-fluid pr-2" alt="Decisive Kitchen Application">
+                            <div class="card-body">
+                                <h5 class="card-title">Decisive Kitchen</h5>
+                                <a href="https://github.com/mkindler/DecisiveKitchen" target="_blank" class="card-link">GitHub Repository</a>
+                                <a href="https://calebkw91.github.io/DecisiveKitchen/" target="_blank" class="card-link">Deployed Application</a>
+                            </div>
+                        </div>
+                        <div class="card examples">
+                            <img src="Assets/Images/work-day-scheduler-portfolio.png" class="card-img-top img-fluid pr-2" alt="Work Day Scheduler Application">
+                            <div class="card-body">
+                                <h5 class="card-title">Work Day Scheduler</h5>
+                                <a href="https://github.com/mkindler/WorkDayScheduler" target="_blank" class="card-link">GitHub Repository</a>
+                                <a href="https://mkindler.github.io/WorkDayScheduler/" target="_blank" class="card-link">Deployed Application</a>
+                            </div>
+                        </div>
+                        <div class="card examples">
+                            <img src="Assets/Images/weather-dashboard-portfolio.png" class="card-img-top img-fluid pr-2" alt="Weather Dashboard Application">
+                            <div class="card-body">
+                                <h5 class="card-title">Weather Dashboard</h5>
+                                <a href="https://github.com/mkindler/WeatherDashboard" target="_blank" class="card-link">GitHub Repository</a>
+                                <a href="https://mkindler.github.io/WeatherDashboard/" target="_blank" class="card-link">Deployed Application</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p class="footer-text">Copyright &#169; 2020 <a class="text-info" target="_blank" href="https://github.com/mkindler">Mae Kindler</a></p>
+    </div>
 
   
-        <!-- <nav class="navbar navbar-expand-lg mb-3 px-4 navbar-light">
-            <header class="navbar-brand">Mae Kindler</header>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              
-              <span class="navbar-toggler-icon"></span>
-            
-            </button> -->
-          
-            <!-- Toggle button with links to About Me, Contact, and Portfolio pages when webpage is viewed on smaller viewports on mobile devices. -->
-            <!-- <nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-              </ul>              
-            </nav>
-        </nav> -->
+</body>
+</html>
 
-        <!-- Using the Bootstrap grid system, a card has been nested within a column that is housed inside a row. This card is used to set up the main place where the individual portfolio images are housed. -->
-        <section class="row">
+<!-- Using the Bootstrap grid system, a card has been nested within a column that is housed inside a row. This card is used to set up the main place where the individual portfolio images are housed. -->
+        <!-- <section class="row">
             <div class="col-md-6 my-3 p-3" id="portfolio">
                 <div class="card-portfolio">
                     <div class="card-content">
                         <h2>Portfolio</h2>
-                        <hr>
+                        <hr> -->
                             
                             <!-- A separate row (first row) has been established with two columns that each currently contain placeholder images for the portfolio. -->                        
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="col-lg-6 mb-3">
                                     <div class="thumbnail">
                                         <a href="Assets/Images/unsplash-sloth1.png" target="_blank">
@@ -108,10 +135,10 @@
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         
                             <!-- A separate row (second row) has been established with two columns that each currently contain placeholder images for the portfolio. -->
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="col-lg-6 mb-3">
                                     <div class="thumbnail">
                                         <a href="Assets/Images/unsplash-sloth3.png" target="_blank">
@@ -126,10 +153,10 @@
                                         </a>
                                     </div>
                                 </div>
-                            </div>                        
+                            </div>                         -->
 
                             <!-- A separate row (third row) has been established with two columns that each currently contain placeholder images for the portfolio. -->
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="col-lg-6 mb-3">
                                     <div class="thumbnail">
                                         <a href="Assets/Images/unsplash-bike1.png" target="_blank">
@@ -147,13 +174,13 @@
                             </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             
             <!-- Using the Bootstrap grid system, a second column that is blank has been housed inside the same row as the column above. This column has intentially been left blank to create space between the first and third column (below). -->
-            <div class="col-md-2"></div>  
+            <!-- <div class="col-md-2"></div>   -->
 
             <!-- Using the Bootstrap grid system, a third card has been nested within a third column that is housed inside the same row as the two columns above. This card is used to display the social media icons. -->
-            <section class="col-md-4 my-3">
+            <!-- <section class="col-md-4 my-3">
                 <div class="card-connect">
                     <div class="card-body">
                     <h3>Connect with Me</h3>
@@ -169,18 +196,15 @@
 
         </section>        
     
-    </main>
+    </main> -->
 
     <!-- Footer applied to the bottom of the page. -->
     <!-- <footer>
         &#169; Copyright 2020 Mae Kindler
       </footer> -->
     
-      <footer class="footer text-center py-3 sticky-footer">
+      <!-- <footer class="footer text-center py-3 sticky-footer">
         <div class="container" id="footer-container">
           <span class="text-muted">Copyright © 2020 <a class="text-info" target="_blank" href="https://github.com/mkindler">Mae Kindler</a></span>
         </div>
-      </footer>
-
-</body>
-</html>
+      </footer> -->

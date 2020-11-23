@@ -20,6 +20,17 @@ body {
   width: 100%;
 }
 
+.footer {
+  padding-top: 1em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #20603C;
+  color: #ffffff;
+  text-align: center;
+}
+
 h2 {
   color: #ffffff;
   font-weight: bold;
@@ -86,7 +97,7 @@ h5 {
   margin-top: auto;
 } */
 
-#sticky-footer {
+/* #sticky-footer {
   flex-shrink: none;
 }
 
@@ -99,9 +110,13 @@ footer {
   align-items: center;
   justify-content: center;
   height: 60px;
-}
+} */
 
 span {
+  color: #ffffff;
+}
+
+.footer-text {
   color: #ffffff;
 }
 
@@ -150,43 +165,53 @@ h1, p {
 } */
 
 /* The example text in the Name and Email fields of the form are styled with opacity, adjusted font size, and padding */
-#name[type=text] {
-  padding-left: 4px;
+/* #name[type=text] {
+  padding-left: 4px; */
   /* font-size: 14px; */
-  opacity: 0.7;
+  /* opacity: 0.7;
 }
 
 #email[type=text] {
   padding-left: 4px;
   /* font-size: 14px; */
-  opacity: 0.7;
-}
+  /* opacity: 0.7;
+} */
 
 /* The height and width of the Message box of the form are styled accordingly below */
-#message {
+/* #message {
   height: 150px;
   width: 97%;
   margin-bottom: 10px;
-}
+} */ 
 
 /* Styling is added to the Submit button of the form, including a hover function */
-#submit {
+/* #submit {
   background: #2b2118;
   color: #ffffff;
   height: 30px;
   width: 75px;
   border: none;
   /* font-size: 14px; */
-  margin-top: 5px;
+  /* margin-top: 5px;
 }
 
 #submit:hover {
   background-color: #6f1a07;
-}
+/* } */ 
 
 /*ALL CSS BELOW IS FOR THE PORTFOLIO PAGE */
-/* This class is used to center each of the thumbnails/photos within the main portfolio column of the webpage, and ensures the thumbnails/photos are sized to maintain their aspect ratio while filling the entire content box. */
-.thumbnail {
-  align-content: center;
-  object-fit: cover;
+#portfolio {
+  margin-top: 15px;
+}
+
+.card-examples {
+  background-color: #20603C;
+}
+
+.examples {
+  background-color: #20603C;
+}
+
+.card-link {
+  color: #ffffff;
 }
