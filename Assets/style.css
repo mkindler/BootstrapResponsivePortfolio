@@ -16,8 +16,14 @@ body {
   width: 100%;
 }
 
-.navbar-brand {
+h2 {
+  color: #ffffff;
   font-weight: bold;
+}
+
+h5 {
+  color: #d1ffd2;
+  margin-top: 7px;
 }
 
 .nav-link {
@@ -26,6 +32,32 @@ body {
 
 .col-md-3 {
   text-align: center;
+}
+
+.card-header {
+  background-color: #20603C;
+  color: #ffffff;
+}
+
+.fa-github-alt {
+  font-size: 50px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+}
+
+.fa-linkedin-in {
+  font-size: 50px;
+  background-color: #ffffff;
+  color: #2867B2;
+  padding: 5px;
+}
+
+.fa-file {
+  font-size: 50px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
 }
 
 /* .col-md-4 {
@@ -50,6 +82,10 @@ body {
   margin-top: auto;
 } */
 
+#sticky-footer {
+  flex-shrink: none;
+}
+
 footer {
   background-color: #20603C;
   position: fixed;
@@ -61,42 +97,30 @@ footer {
   height: 60px;
 }
 
+span {
+  color: #ffffff;
+}
+
+
 /* ALL CSS BELOW IS FOR THE ABOUT ME PAGE */
-/* This class allows the image/headshot to float left while the text wraps around the image */
-.fa-github-alt {
-  font-size: 50px;
-  background-color: #ffffff;
-  color: #000000;
-  padding: 5px;
-}
-
-.fa-linkedin-in {
-  font-size: 50px;
-  background-color: #ffffff;
-  color: #2867B2;
-  padding: 5px;
-}
-
-.fa-file {
-  font-size: 50px;
-  background-color: #ffffff;
-  color: #000000;
-  padding: 5px;
-}
-
-p {
-  margin: 5px;
+h1, p {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* ALL CSS BELOW IS FOR THE CONTACT PAGE */
 /* The following three classes are styled for the first column containing the contact form */
-.col-md-6 {
+/* .col-md-6 {
   background-color: #ffffff;
 }
 
 .col-md-6 h2 {
   font-weight: bold;
   color: #2b2118;
+} */
+
+.contact-header {
+  color: #000000;
 }
 
 .col-md-6 input {
