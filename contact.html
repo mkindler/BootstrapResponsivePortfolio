@@ -9,6 +9,10 @@
     <!-- External CSS stylesheet linked -->
     <link rel="stylesheet" type="text/css" href="Assets/style.css">
 
+    <!-- Google Fonts linked -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS Framework linked from Bootstrap website -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -26,7 +30,7 @@
   <main class="container">   
     
     <!-- Top navigation bar with About Me, Contact, and Portfolio links. Navigation bar shrinks responsively when viewed on various mobile devices. On devices with smaller viewports, a toggle button will appear to allow the user to tap the button and display the option to view the links to the About Me, Contact, and Portfolio pages. -->
-    <nav class="navbar navbar-expand-lg mb-3 px-4 navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <header class="navbar-brand">Mae Kindler</header>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,8 +104,14 @@
   </main>
 
   <!-- Footer applied to the bottom of the page. -->
-  <footer>
+  <!-- <footer>
     &#169; Copyright 2020 Mae Kindler
+  </footer> -->
+
+  <footer class="footer text-center py-3 bg-dark sticky-footer">
+    <div class="container" id="footer-container">
+      <span class="text-muted">Copyright © 2020 <a class="text-info" target="_blank" href="https://github.com/mkindler">Mae Kindler</a></span>
+    </div>
   </footer>
   
 </body>
