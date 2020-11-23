@@ -45,7 +45,7 @@ https://mkindler.github.io/BootstrapResponsivePortfolio/
 
 ## Screenshots of Deployed Website
 
-<b><i>The images below are current as of October 10th, 2020.</i></b>
+<b><i>The images below are current as of November 22nd, 2020.</i></b>
 
 **About Me Page**
 ![About Me Page](Assets/Images/about-me.png)
