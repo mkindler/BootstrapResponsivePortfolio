@@ -10,7 +10,7 @@ Included within this portfolio are three main sections, as follows:
 
 - <b>About:</b> Shares information about who Mae Kindler is, where she currently works, and what some of her passions are.
 
-- <b>Portfolio:</b> Displays thumbnails of projects that Mae has worked on, both collaboratively and solo.
+- <b>Portfolio:</b> Displays thumbnails of projects that Mae has worked on collaboratively.
 
 - <b>Contact:</b> A form that is designed to collect messages and contact information from users who visit the site and want to connect further with Mae. Additionally, links to Mae's GitHub, LinkedIn, and Instagram profiles are available, as well as the ability to send Mae an email and view her resume.
 
@@ -37,7 +37,7 @@ https://mkindler.github.io/BootstrapResponsivePortfolio/
 
 ## Screenshots of Deployed Website
 
-<b><i>The images below are current as of February 2nd, 2021.</i></b>
+<b><i>The images below are current as of January 3, 2022.</i></b>
 
 **Home Page**
 ![Home Page](images/home.png)
