@@ -816,6 +816,11 @@ input[type="radio"] + label:before {
 }
 
 .image.main img {
+  width: 100%;
+}
+
+.image.main.headshot {
+  display: block;
   width: 50%;
 }
 
